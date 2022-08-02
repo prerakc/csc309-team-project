@@ -1,0 +1,13 @@
+.listingsView {
+    height: 100%;
+    display: grid;
+    grid-template-columns: [c1] 25% [c2] 75%;
+}
+
+.listingsBar {
+    margin-top: 30px;
+}
+
+.listingsWindow {
+    margin-top: 30px;
+}

@@ -1,0 +1,103 @@
+.listingssidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  margin-left: 50px;
+}
+
+.Filters {
+  margin-bottom: 20px;
+  /* width: 100%; */
+  border: 1px solid black;
+}
+
+.Filter {
+  margin-left: 10px;
+}
+
+.ListingControl {
+  margin-left: 20px;
+}
+
+.ControlGroupTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* align-items: center; */
+}
+
+.DateLabel {
+  text-align: center;
+}
+
+.DateSelector {
+  margin: 10px 20px 10px 0px;
+}
+
+.controlLabel {
+  margin-right: 20px;
+}
+
+.controlbox {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subjectfilter {
+  margin: 20px 15px 10px 15px;
+}
+
+.typefilter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.sortflex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.sortgroup {
+  margin-bottom: 5px;
+}
+
+#sort-property-control{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.postButtonClass {
+  text-align: center;
+}
+.subjectFilter2 {
+  width: 100%;
+}
+
+.sliderContainer {
+  /* width: 100%; */
+  margin: 5px 35px 0px 10px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.clearFilterContainer {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.star:hover {
+  cursor: pointer;
+}

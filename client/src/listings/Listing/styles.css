@@ -1,0 +1,123 @@
+.Listing {
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+}
+
+.ListingProfilePic {
+    width: 200px;
+    height: 200px;
+    flex: 1 0 20%;
+}
+
+.CardContent {
+    flex: 1 0 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ListingTypeIcon {
+    height: 50px;
+    align-self: right;
+    margin: 10px 10px 0px 0px;
+}
+
+.listingHeader {
+}
+
+.listingTitle {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.listingPrice {
+    float: right;
+    font-size: 150%;
+    color: blue;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.listingDate {
+    color: gray;
+}
+
+
+.SubjectTag {
+    background-color: lightgrey;
+    font-weight: bold;
+    border-color: black;
+    margin: 10px;
+}
+
+.star {
+    height: 20px;
+    color: lightslategray;
+}
+
+.gold {
+    color: gold;
+}
+
+.ReplyContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ListingProfileContainer {
+    display: block;
+    margin: 20px 0px 0px 20px;
+}
+
+.CreatedByLabel {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.RatingContainer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.DeleteButtonContainer{
+    float: right;
+    display: inline-block;
+    margin: 0px 50px 20px 0px;
+}
+
+.ReportButtonContainer{
+    float: left;
+    display: inline-block;
+    margin: 0px 0px 20px 50px;
+}
+
+.SubjectsContainer {
+    text-align: center;
+}
+
+.ReportPopoverClass {
+    /* width: 200px; */
+}
+
+.ReasonSelect {
+    margin: 30px 20px 20px 20px;
+    min-width: 200px;
+}
+
+.ConfirmReport {
+    margin-bottom: 20px;
+    text-align: center;
+}

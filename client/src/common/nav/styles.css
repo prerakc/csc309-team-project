@@ -1,0 +1,25 @@
+#Nav {
+    position: absolute;
+    height:8%;
+}
+
+.GiveFlexGrow {
+    flex-grow: 1;
+}
+
+#Title {
+    margin-left: 16px;
+    margin-right: 32px; 
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.Button {
+    color: white;
+    display: block; 
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

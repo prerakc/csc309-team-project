@@ -1,0 +1,72 @@
+.GiveFlex {
+	display: flex;
+}
+
+.ProfileContainer {
+	position: relative;
+	top: 50px;
+}
+
+.BioProfilePicture {
+	width: 200px;
+	height: 200px; 
+}
+
+#ProfileInfo {
+	background-color: #e6ecf0;
+	padding: 20px;
+	width: 350px;
+}
+
+.MarginUpDownOne {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.BioBoldedText {
+	font-weight: 600;
+	display: inline;
+}
+
+.MarginUpDownTwo {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.LinkButton {
+	text-decoration: none;
+}
+
+.ReviewPanelContainer {
+	position: absolute;
+	top: 200px;
+	left: 600px;
+}
+
+.ReviewTab {
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.ReviewContainer {
+	border-bottom: 1px solid black;
+	background-color: #e6ecf0;
+	padding: 16px;
+}
+
+.ReviewerProfilePicture {
+	width: 75px;
+	height: 75px; 
+}
+
+.MarginUpDownFive {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.ExtraPaddingBottom {
+	padding-bottom: 35px;
+}

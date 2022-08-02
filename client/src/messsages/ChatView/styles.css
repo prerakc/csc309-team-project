@@ -1,0 +1,17 @@
+.chatView{
+    height: 100%;
+}
+
+.chatSelector{
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatWindow{
+    width: 80%;
+    height: 100%;
+    float: left;
+}

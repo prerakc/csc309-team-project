@@ -1,0 +1,23 @@
+.authGrid {
+    margin-top: 10px;
+}
+
+.authButtonLink {
+    text-decoration: none;
+}
+
+.authButton {
+    width: 400px;
+    height: 100px;
+}
+
+.loginpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    
+}
+

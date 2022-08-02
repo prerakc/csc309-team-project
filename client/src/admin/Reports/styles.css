@@ -1,0 +1,115 @@
+.MarginTopFromNavBar {
+    margin-top: 50px;
+}
+
+.MarginLeftFromContainer {
+    margin-left: 50px;
+}
+
+.ReportText {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+}
+
+.ReportListingsView {
+    /* padding-bottom: 25px; */
+}
+
+.ReportListing {
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.ReportCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+}
+
+.ReportListingProfilePic {
+    width: 200px;
+    height: 200px;
+    flex: 1 0 20%;
+}
+
+.ReportCardContent {
+    flex: 1 0 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ReportListingTypeIcon {
+    height: 50px;
+    align-self: right;
+    margin: 10px 10px 0px 0px;
+}
+
+.ReportlistingHeader {
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; */
+}
+
+.ReportlistingTitle {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.ReportlistingPrice {
+    float: right;
+    font-size: 150%;
+    color: blue;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.ReportlistingDate {
+    color: gray;
+}
+
+.ReportSubjectTag {
+    background-color: lightgrey;
+    font-weight: bold;
+    border-color: black;
+    margin: 10px;
+}
+
+.ReportListingProfileContainer {
+    display: block;
+    margin: 20px 0px 0px 20px;
+}
+
+.ReportCreatedByLabel {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ReportRatingContainer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ReportDeleteButtonContainer{
+    float: right;
+    display: inline-block;
+    margin: 0px 50px 20px 0px;
+}
+
+.ReportReportButtonContainer{
+    float: left;
+    display: inline-block;
+    margin: 0px 0px 20px 50px;
+}
+
+.ReportSubjectsContainer {
+    text-align: center;
+}
